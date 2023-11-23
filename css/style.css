@@ -8936,7 +8936,7 @@ h1, h2, h3, h4, h5,
 
 .project {
   width: 100%;
-  height: 285px;
+  height: 200px;
   margin-bottom: 30px;
   position: relative;
   z-index: 0; }
@@ -9217,9 +9217,9 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
 .image-popup {
   cursor: -webkit-zoom-in;
