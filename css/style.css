@@ -8802,7 +8802,9 @@ h1, h2, h3, h4, h5,
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  min-height: 335px;;
+}
   .resume-wrap .date {
     font-weight: 900;
     font-size: 26px;
