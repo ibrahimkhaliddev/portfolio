@@ -8450,13 +8450,15 @@ h1, h2, h3, h4, h5,
         background: #000000;
         opacity: 0; }
       .owl-carousel.home-slider .slider-item .slider-text {
+        align-items: center !important;
         height: 750px;
         z-index: 0; }
         @media (max-width: 991.98px) {
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
-          width: 60%;
+          height: 500px !important;
+          width: 25%;
           position: relative;
           z-index: -1; }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -8713,7 +8715,7 @@ h1, h2, h3, h4, h5,
     outline: none; }
   .btn.btn-primary {
     background: #ffbd39;
-    border: 1px solid #ffbd39 !important;
+    border: 1px solid #fff !important;
     color: #000000 !important; }
     .btn.btn-primary:hover {
       border: 1px solid #ffbd39 !important;
@@ -8766,7 +8768,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .ftco-about .img-about .img {
     display: block;
-    width: 100%;
+    width: 65%;
     position: relative;
     z-index: 1; }
 
@@ -8920,7 +8922,9 @@ h1, h2, h3, h4, h5,
     font-size: 20px;
     font-weight: 400;
     color: #fff; }
-
+.ftco-hireme a{
+  border: 1px solid white !important;
+}
 .ftco-hireme {
   background: #ffbd39;
   z-index: -1; }
@@ -8929,8 +8933,10 @@ h1, h2, h3, h4, h5,
     font-size: 40px;
     font-weight: 900; }
     .ftco-hireme h2 span {
-      color: #ffbd39; }
-
+      color: #fff; }
+      .ftco-hireme p{
+        color: white;
+      }
 @media (min-width: 992px) {
   .margin-top {
     margin-top: -70px;
@@ -9084,7 +9090,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  /* padding: 7em 0; */
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
